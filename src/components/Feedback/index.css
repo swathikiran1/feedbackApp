@@ -1,0 +1,107 @@
+/* Write your CSS code here. */
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-color: none;
+  width: 80%;
+  text-align: center;
+  padding: 25px;
+}
+
+.feedback-container1 {
+  display: none;
+}
+
+.feedback-container2 {
+  display: block;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 25px;
+  margin: 20px;
+}
+
+.emojis-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.emoji {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.name {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.love-emoji {
+  height: 40px;
+  width: 40px;
+}
+
+.heading1 {
+  color: #0f172a;
+  font-size: 25px;
+  font-family: 'Roboto';
+  margin-bottom: 25px;
+  margin: 20px;
+}
+
+.description {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .emoji-container {
+    border-radius: 30px;
+    min-width: 200px;
+    max-width: 550px;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .emoji {
+    height: 60px;
+    width: 60px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .love-emoji {
+    height: 60px;
+    width: 60px;
+  }
+
+  .heading1 {
+    font-size: 35px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}
